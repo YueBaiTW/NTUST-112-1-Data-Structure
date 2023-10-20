@@ -37,5 +37,6 @@ int main()
 		}
 	}
 
+	free(matrix);
 	printf("%d", sum);
 }
