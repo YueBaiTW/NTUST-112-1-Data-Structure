@@ -37,6 +37,11 @@ int main()
 		}
 	}
 
+	for(int i=0;i<row;i++)
+	{
+		free(matrix[i]);
+	}
 	free(matrix);
+	
 	printf("%d", sum);
 }
